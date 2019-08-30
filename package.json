@@ -1,0 +1,39 @@
+{
+  "name": "10-liri-nodejs",
+  "version": "1.0.0",
+  "description": "JSON Pancakage for LIRI",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CapraRoyale/10-LIRI-NodeJS.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "axios",
+    "OMDB",
+    "Moment",
+    "DotEnv",
+    "Spotify",
+    "Bands",
+    "in",
+    "Town"
+  ],
+  "author": "Siege Lehman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CapraRoyale/10-LIRI-NodeJS/issues"
+  },
+  "homepage": "https://github.com/CapraRoyale/10-LIRI-NodeJS#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "env": "0.0.2",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
+  }
+}
