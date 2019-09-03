@@ -78,7 +78,7 @@ var bandsInTown = function(artist) {
 
                 console.log(chalk.bgWhite.black(response.data[i].venue.name));
                 console.log(response.data[i].venue.city + "," + space + response.data[i].venue.country)
-                console.log(response.data[i].datetime);
+                console.log(moment(response.data[i].datetime).format("MM-DD-YYYY"));
                 console.log("");
             }
         })
@@ -107,7 +107,7 @@ var querySource = function(source) {
         })
         .finally(function() {
             // always executed
-            console.log("Complete");
+            // console.log("Complete");
         });
 }
 
@@ -115,7 +115,7 @@ switch (newCommand) {
     //
     case "concert-this":
         //
-        console.log("BANDS");
+        // console.log("BANDS");
         //
         var artist = process.argv[3];
         //
@@ -125,7 +125,7 @@ switch (newCommand) {
         //
     case "spotify-this-song":
         //
-        console.log("SONG");
+        // console.log("SONG");
         //
         var song = process.argv[3];
         //
@@ -137,7 +137,7 @@ switch (newCommand) {
         //
     case "movie-this":
         //OMDB API
-        console.log("MOVIES");
+        // console.log("MOVIES");
         //
         var movie = process.argv[3];
         //
